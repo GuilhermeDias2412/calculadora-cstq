@@ -34,6 +34,14 @@ with col1:
 
 st.markdown("---")
 
+# Legenda de Tamanhos adicionada aqui
+st.info("""
+**Guia de Dimensionamento de Projetos:**
+* **P (Pequeno):** Escopo reduzido. Ideal para demandas pontuais, 1 produto ou análises simples.
+* **M (Médio):** Escopo padrão. Complexidade moderada, múltiplas amostras ou estudos aprofundados.
+* **G (Grande):** Escopo amplo. Alta complexidade, linhas de produção inteiras ou muitos pontos de coleta.
+""")
+
 # Formulário para adicionar serviços
 with st.form("form_adicionar"):
     c1, c2, c3, c4 = st.columns([3, 2, 2, 2])
